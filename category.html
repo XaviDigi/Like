@@ -1,0 +1,60 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Choose an Image</title>
+    <link rel="stylesheet" href="styles.css">
+</head>
+<body>
+    <div class="container">
+        <div class="block" id="left-block">
+            <img src="" alt="Left Image" onclick="chooseImage('left')">
+        </div>
+        <div> VS </div>
+        <div class="block" id="right-block">
+            <img src="" alt="Right Image" onclick="chooseImage('right')">
+        </div>
+    </div>
+
+    <div class="other-categories">
+        <h3>Explore Other Categories</h3>
+        <div class="categories-container">
+            <div class="category-link" onclick="window.location.href='category.html?category=cars'">
+                <img src="cars/car.jpg" alt="Cars">
+                <p>Cars</p>
+            </div>
+            <!-- <div class="category-link" onclick="window.location.href='category.html?category=countries'">
+                <img src="countries/country.jpg" alt="Countries">
+                <p>Countries</p>
+            </div> -->
+            <div class="category-link" onclick="window.location.href='category.html?category=food'">
+                <img src="food/food.jpg" alt="Food">
+                <p>Food</p>
+            </div>
+            <div class="category-link" onclick="window.location.href='category.html?category=anime'">
+                <img src="anime/anime.jpg" alt="anime">
+                <p>Anime</p>
+            </div>
+            <div class="category-link" onclick="window.location.href='category.html?category=movies'">
+                <img src="movies/movie.jpg" alt="Movies">
+                <p>Movies</p>
+            </div>
+            <div class="category-link" onclick="window.location.href='category.html?category=brands'">
+                <img src="brands/brand.jpg" alt="brands">
+                <p>Brands</p>
+            </div>
+            <!-- <div class="category-link" onclick="window.location.href='category.html?category=movies'">
+                <img src="movies/movie.jpg" alt="Movies">
+                <p>Sports</p>
+            </div> -->
+        </div>
+    </div>
+
+    <div class="home-button-container">
+        <button class="home-button" onclick="window.location.href='index.html'">Home</button>
+    </div>
+
+    <script src="script.js"></script>
+</body>
+</html>
